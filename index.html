@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="..assets/styles.css">
-    <title>The Gin Club</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <title>The Gin Club</title>
+    </head>
+
 <body>
-    <header>
-        Sign Up
-        Whats in the box?
-        Contact us
-        nav - fixed at top while scrolling
-        hamburger
+    <header class="banner container-fluid">
+
+    <!-- nav - fixed at top while scrolling
+            hamburger -->
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#joinUs">Join Us</a>
+            <a href="#whatsInside">What's inside?</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+        </a>
+        </div>
+
+       
+           <!-- <div class="jumbotron container">
+                <button>Join Us</button>
+            </div> -->
+        
     </header>
 
     <section>
-        <div class="container">
-            logo
-            <h1>The Gin Club</h1>
-            Sign up button 
-            <button>Join now</button>
+        <div class="container-fluid">
+        <!-- rows and cols -->
+            <h3>How the Gin Club works</h3>
+            <h5>Step 1 - Join Us</h5>
+            <i class="fas fa-wine-bottle"></i>
+            <h5>Step 2 - Pick a subscription</h5>
+            <i class="fas fa-glass-cheers"></i>
+            <h5>Step 3 - Recieve your delivery</h5>
+            <i class="fas fa-box-open"></i>
         </div>
     </section>
 
     <section>
         <div class="container">
-            <h2>How the Gin Club works</h2>
-            <h3>Step 1 - Sign Up</h3>
-            <h3>Step 2 - Pick a subscription</h3>
-            <h3>Step 3 - Recieve your delivery</h3>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <h2>What's included?</h2>
+            <!-- Rows and cols -->
+            <h3>What's included?</h3>
             <ul>
                 <li>Gin</li>
                 <li>Tonic</li>
@@ -43,17 +61,23 @@
                 <li>Sample Gin</li>
                 <li>Complimentary sweets</li>
             </ul>
+            <div>
             image 
+            </div>
         </div>
     </section>
 
     <section>
         <div class="container">
-            <h2>Members</h2>
-            Holly
-            <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
-            Dale
-            <p>Absolutely love this! Always on time and always a great choice of gin and tonic combo. Would recommend.</p>
+            <h3>Members</h3>
+                <div>
+                Holly
+                <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
+                </div>
+                <div>
+                Dale
+                <p>Absolutely love this! Always on time and always a great choice of gin and tonic combo. Would recommend.</p>
+                </div>    
         </div>
     </section>
 
@@ -66,6 +90,10 @@
         
         </form>
     </section>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <footer>
         Facebook
