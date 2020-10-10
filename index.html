@@ -15,94 +15,126 @@
     <!-- nav - fixed at top while scrolling
             hamburger -->
 
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-        <a href="#home" class="active">Logo</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-            <a href="#joinUs">Join Us</a>
-            <a href="#whatsInside">What's inside?</a>
-            <a href="#contact">Contact Us</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fas fa-bars"></i>
-        </a>
-        </div>
-
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+            </div> 
+    <input type="checkbox" id="menuShowHide">
+<label for="menuShowHide"></label>
+<ul id="mainMenu">
+	<li><a href="#">Join us</a></li>
+	<li><a href="#">How does it work?</a></li>
+	<li><a href="#">What's inside?</a></li>
+	<li><a href="#">Reviews</a></li>
+	<li><a href="#">Contact Us</a></li>
+</ul>
        
-           <!-- <div class="jumbotron container">
-                <button>Join Us</button>
-            </div> -->
         
+<div class="jumbotron container">
+                <button>Join Us</button>
+            </div>
+
+
     </header>
+
+                   
+    
 
     <section>
         <div class="container-fluid">
         <!-- rows and cols -->
             <h3>How the Gin Club works</h3>
-            <h5>Step 1 - Join Us</h5>
-            <i class="fas fa-wine-bottle"></i>
-            <h5>Step 2 - Pick a subscription</h5>
-            <i class="fas fa-glass-cheers"></i>
+            <div class="col">
+            <div class="row">
+                <h5>Step 1 - Join Us</h5>
+            </div>
+            <div class="row">
+                <h5>Step 2 - Pick a subscription</h5>
+            </div>
+            <div class="row">
             <h5>Step 3 - Recieve your delivery</h5>
-            <i class="fas fa-box-open"></i>
+            </div>
+            </div>           
+
         </div>
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="whatsIncluded">
             <!-- Rows and cols -->
+            <div class="row whatsIncluded">
+            <div class="col">
             <h3>What's included?</h3>
             <ul>
-                <li>Gin</li>
-                <li>Tonic</li>
-                <li>Magazine</li>
-                <li>Sample Gin</li>
+                <li>A bottle of Gin 700ml</li>
+                <li>Flavoured Tonic pairing</li>
+                <li>Monthly Gin Club magazine</li>
+                <li>Taster sample of a second Gin</li>
                 <li>Complimentary sweets</li>
             </ul>
-            <div>
-            image 
             </div>
-        </div>
+            </div>
+            <div class="col ginHamper">
+                <img src="assets/images/GinHamper.jpg" alt="Gin Club Hamper">
+            </div>
+            </div>
     </section>
 
     <section>
-        <div class="container">
-            <h3>Members</h3>
-                <div>
-                Holly
-                <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
-                </div>
-                <div>
-                Dale
-                <p>Absolutely love this! Always on time and always a great choice of gin and tonic combo. Would recommend.</p>
-                </div>    
+        <div class="container members">
+            <h3>Our members</h3>
+                <div class="row">
+                    <div class="col">
+                    <p>Holly</p>
+                    <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
+                    </div>
+                    <!-- Needs to be hidden for mob first-->
+                    <div class="col" >
+                    <p>Dale</p>
+                    <p>Absolutely love this! Always on time and always a great choice of gin and tonic combo. Would recommend.</p>
+                    </div> 
+                </div>   
+                <button>See more</button>
         </div>
     </section>
 
     <section>
         <form>
-        <input type="text" id="name" >Name</input>    
-        <input type="email" id="emailAdress" >Email address</input>
-        <placeholder >
+        <h3>Have a question?</h3>
+        <label>Name</label>
+        <input type="text" id="name">   
+        <label>Email address</label>
+        <input type="email" id="emailAdress">
+        <placeholder>Ask us anything!
         <input type="text" id="query">
-        
         </form>
     </section>
 
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <footer>
+
+      <div>
+        <ul>
+        <a>Join us</a>
+        <a>Whats included?</a>
+        <a>Our members</a>
+        <a>contact us</a>
+        copyright
+        </ul>
+        </div>
+
+        <div>
         Facebook
         Twitter
         Instagram
         Pinterest
-        menu links
-        contact us
-        copyright
+        </div>
+        
     </footer>
     
 </body>

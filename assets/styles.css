@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
 .banner {
@@ -15,8 +15,12 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
-.topnav {
-    float: left;
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+}
+
+.jumbotron button {
+    
 }
 
 i {
@@ -24,45 +28,89 @@ i {
     width: 50px;
 }
 
-
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
+#whatsIncluded {
+    color: rgb(226, 208, 208);
+    background-color: #e24923;
+    margin: 0 auto;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
+#whatsIncluded h3 {
+    padding-bottom: 15px;
 }
 
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+#whatsIncluded li {
+    padding-bottom: 10px
 }
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+.whatsIncluded {
+    color: #fff;
+    position: center;
+    padding: 15% 10%;
+    font-family: 'Raleway', sans-serif;
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+/* ------------------ Members */
+
+.members {
+    color: #fff;
+    background-color: #526674;
+    position: center;
+
 }
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
+/* Hidden burger menu */ 
+
+#menuShowHide {
+	position:right;
+	right: 999em;
 }
+
+#mainMenu {
+	list-style:none;
+	text-align:centerleft;
+	padding:0.25em 0;
+	margin-bottom:1e
+}
+
+#mainMenu a {
+    position: right;
+	display:inline;
+	padding:0.25em 1em;
+	text-decoration:none;
+	color:#fff;
+}
+
+#mainMenu a:active,
+#mainMenu a:focus,
+#mainMenu a:hover {
+	background:rgb(4, 25, 46);
+}
+
+footer {
+    color: #fff;
+    background-color: #e24923;
+}
+
+
+/* media queries */
+
+@media (min-width:0em) {
+	#mainMenu {
+		display:none;
+	}
+
+@media (min-width: 38em) {
+    #mainMenu {
+        display: inline-block;
+    }
+
+	#menuShowHide + label:before {
+		content:"<i class="fas fa-bars"></i>";
+	}
+	#menuShowHide:checked + label:before {
+		content:"<i class="fas fa-bars"></i>";
+	}
+
+    #menuShowHide:checked ~ #mainMenu {
+		display:block;
+	}
