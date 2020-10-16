@@ -23,40 +23,7 @@
     
 }
 
-i {
-    height: 50px;
-    width: 50px;
-}
 
-#whatsIncluded {
-    color: rgb(226, 208, 208);
-    background-color: #e24923;
-    margin: 0 auto;
-}
-
-#whatsIncluded h3 {
-    padding-bottom: 15px;
-}
-
-#whatsIncluded li {
-    padding-bottom: 10px
-}
-
-.whatsIncluded {
-    color: #fff;
-    position: center;
-    padding: 15% 10%;
-    font-family: 'Raleway', sans-serif;
-}
-
-/* ------------------ Members */
-
-.members {
-    color: #fff;
-    background-color: #526674;
-    position: center;
-
-}
 
 /* Hidden burger menu */ 
 
@@ -86,10 +53,6 @@ i {
 	background:rgb(4, 25, 46);
 }
 
-footer {
-    color: #fff;
-    background-color: #e24923;
-}
 
 
 /* media queries */
@@ -115,11 +78,84 @@ footer {
 		display:block;
 	}
 
+}
+  
+    /*--------------------- Steps */       
 
+    .steps {
+        color: #526674;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .stepImages {
+        height: 200px;
+        width: 200px;
+    }
+
+    /*--------------------- What's included */    
+
+#whatsIncluded {
+    color: rgb(226, 208, 208);
+    background-color: #e24923;
+    margin: 0 auto;
+}
+
+#whatsIncluded h3 {
+    padding-bottom: 15px;
+}
+
+#whatsIncluded li {
+    padding-bottom: 10px
+}
+
+.whatsIncluded {
+    color: #fff;
+    position: center;
+    padding: 15% 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ------------------ Members */
+
+.members {
+    color: #fff;
+    background-color: #526674;
+    position: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+}
 
     /*--------------------- Contact us */
 
-    #query {
-        height: 100px;
 
-    }
+     /*--------------------- Footer */
+
+footer {
+    color: #fff;
+    background-color: #e24923;
+}
+
+.footerMenu {
+    list-style-type: none;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerMenu a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+    /*--------------------- Social */
+
+.social {
+    color: #fff;
+}

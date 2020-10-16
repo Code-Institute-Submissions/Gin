@@ -43,18 +43,27 @@
     
 
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid steps">
         <!-- rows and cols -->
             <h3>How the Gin Club works</h3>
             <div class="col">
             <div class="row">
                 <h5>Step 1 - Join Us</h5>
+                <br>
+                <img src="assets/images/LemonWedge.jpg" alt="Step One" class="stepImages">
+                <p>Let us know a little more about you. We need to know your name and address so that we can send the delicious gins straight to you. (p.s. we also need payment details too!)</p>
             </div>
             <div class="row">
-                <h5>Step 2 - Pick a subscription</h5>
+                <h5>Step 2 - Pick your subscription</h5>
+                <br>
+                <img src="assets/images/LimeWedge.jpg" alt="Step Two" class="stepImages">
+                <p>Choose how often you would like to recieve your subscription, whether its monthly, every other month or quarterly.</p>
             </div>
             <div class="row">
-            <h5>Step 3 - Recieve your delivery</h5>
+                <h5>Step 3 - Get tasting!</h5>
+                <br>
+                <img src="assets/images/ThreeDrinks.jpg" alt="Step Three" class="stepImages">
+                You will recieve a bottle of the monthly selected gin along with a flavoured tonic pairing, the Gin Club magazine, a 100ml sample of a second gin along with some complimentary confectionary that suits that months chosen flavour combos!
             </div>
             </div>           
 
@@ -88,19 +97,21 @@
                 <div class="row">
                     <div class="col">
                     <p>Holly</p>
+                    <img src="assets/images/HollyProfile.jpg" class="profile">
                     <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
                     </div>
                     <!-- Needs to be hidden for mob first-->
                     <div class="col" >
                     <p>Dale</p>
-                    <p>Absolutely love this! Always on time and always a great choice of gin and tonic combo. Would recommend.</p>
+                    <img src="assets/images/DaleProfile.jpg" class="profile">
+                    <p>Absolutely love this! Always on time and never a bad choice of gin and tonic combo. Would recommend.</p>
                     </div> 
                 </div>   
                 <button>See more</button>
         </div>
     </section>
 
-    <section>
+    <section class="contact">
         <form action="http://example.com/question.php" method="post">
         <h3>Have a question?</h3>
         <label for="emailAddress">Name:
@@ -111,12 +122,13 @@
             <input type="email" name="email" id="email" placeholder="gin@example.com" required="required">
         </label>
         <br>
-        <textarea name="query" id="query">Have a question?</textarea>
+        <textarea name="query" id="query">Ask us anything...</textarea>
         <br>
         <input type="submit" name="question" id="question" value="Ask us" required="required" />
         <br>
         <label for="subscribe">
-            <input type="checkbox" name="subscribe" /><p>Sign me up for email updates!</p>    
+            <input type="checkbox" name="subscribe" />
+            <p>Sign me up for email updates!</p>    
         </form>
     </section>
 
@@ -124,23 +136,40 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <footer>
 
-      <div>
-        <ul>
-        <a>Join us</a>
-        <a>Whats included?</a>
-        <a>Our members</a>
-        <a>contact us</a>
-        copyright
-        </ul>
+
+    <footer>
+        <div>
+            <ul class="footerMenu">
+                <li>
+                <a href="#">Join us</a>
+                </li>
+                <li>
+                <a href="#">Whats included?</a>
+                </li>
+                <li>
+                <a href="#">Our members</a>
+                </li>
+                <li>  
+                <a href="#">Contact us</a>
+                </li>
+                <li>&#169 The Gin Club 2020</li>
+            </ul>
         </div>
 
-        <div>
-        Facebook
-        Twitter
-        Instagram
-        Pinterest
+        <div class="social">
+            <a href="https://www.facebook.com" class="social" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" class="social" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="hhtps://www.instagram.com" class="social" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.pinterest.com" class="social" target="_blank">
+                <i class="fab fa-pinterest"></i>
+            </a>
         </div>
         
     </footer>
