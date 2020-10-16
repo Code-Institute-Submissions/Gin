@@ -114,3 +114,12 @@ footer {
     #menuShowHide:checked ~ #mainMenu {
 		display:block;
 	}
+
+
+
+    /*--------------------- Contact us */
+
+    #query {
+        height: 100px;
+
+    }
