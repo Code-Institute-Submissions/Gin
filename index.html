@@ -10,6 +10,7 @@
     </head>
 
 <body>
+
     <header class="banner container-fluid">
 
     <!-- nav - fixed at top while scrolling
@@ -43,38 +44,32 @@
     
 
     <section>
-        <div class="container-fluid steps">
-        <!-- rows and cols -->
+        <div class="container steps">
+        <!-- rows and cols ??? -->
             <h3>How the Gin Club works</h3>
-            <div class="col">
-            <div class="row">
+            <div class="container-sm">
                 <h5>Step 1 - Join Us</h5>
                 <br>
                 <img src="assets/images/LemonWedge.jpg" alt="Step One" class="stepImages">
                 <p>Let us know a little more about you. We need to know your name and address so that we can send the delicious gins straight to you. (p.s. we also need payment details too!)</p>
             </div>
-            <div class="row">
+            <div class="container-sm">
                 <h5>Step 2 - Pick your subscription</h5>
                 <br>
                 <img src="assets/images/LimeWedge.jpg" alt="Step Two" class="stepImages">
                 <p>Choose how often you would like to recieve your subscription, whether its monthly, every other month or quarterly.</p>
             </div>
-            <div class="row">
+            <div class="container-sm">
                 <h5>Step 3 - Get tasting!</h5>
                 <br>
                 <img src="assets/images/ThreeDrinks.jpg" alt="Step Three" class="stepImages">
                 You will recieve a bottle of the monthly selected gin along with a flavoured tonic pairing, the Gin Club magazine, a 100ml sample of a second gin along with some complimentary confectionary that suits that months chosen flavour combos!
-            </div>
-            </div>           
-
+            </div>          
         </div>
     </section>
 
     <section>
-        <div class="container" id="whatsIncluded">
-            <!-- Rows and cols -->
-            <div class="row whatsIncluded">
-            <div class="col">
+        <div id="whatsIncluded">
             <h3>What's included?</h3>
             <ul>
                 <li>A bottle of Gin 700ml</li>
@@ -83,52 +78,50 @@
                 <li>Taster sample of a second Gin</li>
                 <li>Complimentary sweets</li>
             </ul>
-            </div>
-            </div>
-            <div class="col ginHamper">
-                <img src="assets/images/GinHamper.jpg" alt="Gin Club Hamper">
-            </div>
-            </div>
+        </div>
+            <img class="ginHamper" src="assets/images/GinHamper.jpg" alt="Gin Club Hamper">
+
     </section>
 
     <section>
-        <div class="container members">
-            <h3>Our members</h3>
-                <div class="row">
-                    <div class="col">
-                    <p>Holly</p>
-                    <img src="assets/images/HollyProfile.jpg" class="profile">
-                    <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
-                    </div>
-                    <!-- Needs to be hidden for mob first-->
-                    <div class="col" >
-                    <p>Dale</p>
-                    <img src="assets/images/DaleProfile.jpg" class="profile">
-                    <p>Absolutely love this! Always on time and never a bad choice of gin and tonic combo. Would recommend.</p>
-                    </div> 
-                </div>   
-                <button>See more</button>
+        <div class="members">
+        <h3>Our members</h3>
+            <div>
+                <p>Holly</p>
+                <!--Need to add 5***** either images/symbols-->
+                <img src="assets/images/HollyProfile.jpg" class="profile">
+                <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
+            </div>
+            
+             <!-- Second review needs to be hidden for mob first-->
+            <div>
+                <p>Dale</p>
+                <!--Need to add 5***** either images/symbols-->
+                <img src="assets/images/DaleProfile.jpg" class="profile">
+                <p>Absolutely love this! Always on time and never a bad choice of gin and tonic combo. Would recommend.</p>
+            </div>
+            <button class="button">See more</button>
         </div>
     </section>
 
     <section class="contact">
         <form action="http://example.com/question.php" method="post">
         <h3>Have a question?</h3>
-        <label for="emailAddress">Name:
-            <input type="text" name="name" id="name" maxlength="30" placeholder="Ginderella" required="required" /> 
-        </label>  
-        <br>
+            <label for="emailAddress">Name:
+                <input type="text" name="name" id="name" class="formfield" placeholder="Ginderella" required="required" /> 
+            </label> 
         <label for="email">Email address:
-            <input type="email" name="email" id="email" placeholder="gin@example.com" required="required">
+            <input type="email" name="email" id="email" class="formfield" placeholder="gin@example.com" required="required">
         </label>
-        <br>
-        <textarea name="query" id="query">Ask us anything...</textarea>
-        <br>
-        <input type="submit" name="question" id="question" value="Ask us" required="required" />
-        <br>
+        <label for="message">Message:
+        <textarea name="query" id="message" class="formfield" >Ask us anything...</textarea>
+        </label>
+        <input type="submit" name="question" id="question" value="Contact us" required="required" />
         <label for="subscribe">
-            <input type="checkbox" name="subscribe" />
-            <p>Sign me up for email updates!</p>    
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe"/>
+            <p id="subscribe">Sign me up for email updates!</p>  
+        </div>
         </form>
     </section>
 
@@ -153,7 +146,7 @@
                 <li>  
                 <a href="#">Contact us</a>
                 </li>
-                <li>&#169 The Gin Club 2020</li>
+                <li id="copyright">&#169 The Gin Club 2020</li>
             </ul>
         </div>
 

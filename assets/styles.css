@@ -62,6 +62,8 @@
 		display:none;
 	}
 
+}
+
 @media (min-width: 38em) {
     #mainMenu {
         display: inline-block;
@@ -79,6 +81,16 @@
 	}
 
 }
+
+   /*--------------------- Colour/Shapes */ 
+
+   .button {
+       color: #fff;
+       border: 1px solid #fff;
+       background-color: #526674;
+       margin-bottom: 20px;
+       padding: 5px 20px;
+   }
   
     /*--------------------- Steps */       
 
@@ -92,13 +104,18 @@
         width: 200px;
     }
 
+
     /*--------------------- What's included */    
 
 #whatsIncluded {
-    color: rgb(226, 208, 208);
+    color:#fff;
     background-color: #e24923;
     margin: 0 auto;
+    position: center;
+    padding: 15% 10%;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 #whatsIncluded h3 {
     padding-bottom: 15px;
@@ -106,13 +123,6 @@
 
 #whatsIncluded li {
     padding-bottom: 10px
-}
-
-.whatsIncluded {
-    color: #fff;
-    position: center;
-    padding: 15% 10%;
-    font-family: 'Raleway', sans-serif;
 }
 
 /* ------------------ Members */
@@ -133,6 +143,40 @@
 
     /*--------------------- Contact us */
 
+    .contact {
+        margin: 30px;
+        color: #535353;
+        font-family: "raleway", sans-serif;
+    }
+
+    label, input {
+        display: block;
+    }
+
+    .formfield {
+        border: 1px solid #ccc;
+        background-color: #fafafa;
+        color: #535353;
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #message {
+        padding: 12px 12px; 
+    }
+        
+    #question {
+        display: block;
+        padding: 14px 35px;
+        cursor: pointer;
+    }
+
+    #subscribe {
+        display: inline;
+        margin: 20px 0px;
+    }
+
+
 
      /*--------------------- Footer */
 
@@ -143,19 +187,82 @@ footer {
 
 .footerMenu {
     list-style-type: none;
+    text-align: center;
+    margin: 20px
+    padding: 20px;
 }
 
 .footerMenu a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
-.footerMenu a:hover {
+.footerMenu li {
+    padding: 20px;
+}
+
+.footerMenu a:hover { 
     border-bottom: 1px solid #fff;
+}
+
+#copyright {
+    font-size: 70%;
 }
 
     /*--------------------- Social */
 
 .social {
     color: #fff;
+    text-align: center;
+    padding: 10px
 }
+
+.social a:hover {
+    color: #535353;
+}
+
+
+/*--------------------- Min tablet/desktop width */
+
+@media screen and (min-width: 769px) {
+
+    #whatsIncluded {
+        float: left;
+        width: 50%;
+        height: 400px;
+    }
+
+    .ginHamper {
+        float: right;
+        width: 50%;
+        height: 400px;
+    }
+
+    #stepOne {
+        width: 33%;
+    }
+
+    .stepsIndiv {
+        float: left;
+        width: 33%;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .footerMenu li {
+       float: left;
+    }
+
+   .formfield {
+       width: 50%;
+       display: block;
+   }
+    
+
+
+
+}
+
