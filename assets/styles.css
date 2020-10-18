@@ -1,34 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
-.banner {
-    background-image: url("images/theginclub.jpg");
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    background-repeat: no repeat;
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+
+
+/* .............. Navigation & Hidden burger menu */ 
+
+#mainMenu {
+	display:none;
 }
-
-.jumbotron {
-    background-color: rgba(0,0,0,0);
-}
-
-.jumbotron button {
-    
-}
-
-
-
-/* Hidden burger menu */ 
 
 #menuShowHide {
-	position:right;
+	position: right;
 	right: 999em;
 }
 
@@ -36,11 +18,11 @@
 	list-style:none;
 	text-align:centerleft;
 	padding:0.25em 0;
-	margin-bottom:1e
+	margin-bottom: 1e
 }
 
 #mainMenu a {
-    position: right;
+    position: left;
 	display:inline;
 	padding:0.25em 1em;
 	text-decoration:none;
@@ -53,55 +35,91 @@
 	background:rgb(4, 25, 46);
 }
 
-
-
-/* media queries */
-
-@media (min-width:0em) {
-	#mainMenu {
-		display:none;
-	}
-
-}
+/* ............................media queries for navigation menu */
 
 @media (min-width: 38em) {
     #mainMenu {
         display: inline-block;
+        position: right;
     }
-
-	#menuShowHide + label:before {
-		content:"<i class="fas fa-bars"></i>";
-	}
-	#menuShowHide:checked + label:before {
-		content:"<i class="fas fa-bars"></i>";
-	}
-
-    #menuShowHide:checked ~ #mainMenu {
-		display:block;
-	}
-
+	
 }
 
-   /*--------------------- Colour/Shapes */ 
 
+/*.................... Bootstrap CSS */ 
+
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
+
+.jumbotron button {
+    width: 80%;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*--------------------- Colour/Shapes/layout */ 
+   
+   .banner {
+    background-image: url("images/theginclub.jpg");
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+   }
+   
    .button {
        color: #fff;
        border: 1px solid #fff;
+       margin: 0 auto;
+       display: block;
        background-color: #526674;
        margin-bottom: 20px;
        padding: 5px 20px;
    }
+
+
   
     /*--------------------- Steps */       
 
     .steps {
         color: #526674;
         font-family: "Raleway", sans-serif;
+        padding: 30px;
+        text-align: center;
     }
 
     .stepImages {
         height: 200px;
         width: 200px;
+        padding: 20px;
+    }
+
+    .instructions {
+        padding: 15px; 
     }
 
 
@@ -132,6 +150,15 @@
     background-color: #526674;
     position: center;
     font-family: "Raleway", sans-serif;
+    padding: 30px;
+}
+
+.review {
+    margin: 10px;
+}
+
+.members h3 {
+    text-align: center;
 }
 
 .profile {
@@ -139,6 +166,10 @@
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
+}
+
+.moreReviews {
+    display: none;
 }
 
     /*--------------------- Contact us */
@@ -261,7 +292,6 @@ footer {
        display: block;
    }
     
-
 
 
 }

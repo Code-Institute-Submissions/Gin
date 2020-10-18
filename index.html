@@ -11,90 +11,85 @@
 
 <body>
 
+<!-- nav - fixed at top while scrolling hamburger, -- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <header class="banner container-fluid">
 
-    <!-- nav - fixed at top while scrolling
-            hamburger -->
+         
 
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <nav id="menuShowHide">
+
             <div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fas fa-bars"></i>
-            </a>
-            </div> 
-    <input type="checkbox" id="menuShowHide">
-<label for="menuShowHide"></label>
-<ul id="mainMenu">
-	<li><a href="#">Join us</a></li>
-	<li><a href="#">How does it work?</a></li>
-	<li><a href="#">What's inside?</a></li>
-	<li><a href="#">Reviews</a></li>
-	<li><a href="#">Contact Us</a></li>
-</ul>
-       
-        
-<div class="jumbotron container">
-                <button>Join Us</button>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
             </div>
 
+            <ul id="mainMenu">
+                <li><a href="#">Join us</a></li>
+                <li><a href="#">How does it work?</a></li>
+                <li><a href="#">What's inside?</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Needs to be added to!!!-->
+        <div class="jumbotron container">
+            <button>Join Us</button>
+        </div>
 
     </header>
 
-                   
-    
 
     <section>
         <div class="container steps">
         <!-- rows and cols ??? -->
             <h3>How the Gin Club works</h3>
-            <div class="container-sm">
+            <div class="instructions container-sm">
                 <h5>Step 1 - Join Us</h5>
-                <br>
                 <img src="assets/images/LemonWedge.jpg" alt="Step One" class="stepImages">
                 <p>Let us know a little more about you. We need to know your name and address so that we can send the delicious gins straight to you. (p.s. we also need payment details too!)</p>
             </div>
-            <div class="container-sm">
+            <div class="instructions container-sm">
                 <h5>Step 2 - Pick your subscription</h5>
-                <br>
                 <img src="assets/images/LimeWedge.jpg" alt="Step Two" class="stepImages">
                 <p>Choose how often you would like to recieve your subscription, whether its monthly, every other month or quarterly.</p>
             </div>
-            <div class="container-sm">
+            <div class="instructions container-sm">
                 <h5>Step 3 - Get tasting!</h5>
-                <br>
                 <img src="assets/images/ThreeDrinks.jpg" alt="Step Three" class="stepImages">
-                You will recieve a bottle of the monthly selected gin along with a flavoured tonic pairing, the Gin Club magazine, a 100ml sample of a second gin along with some complimentary confectionary that suits that months chosen flavour combos!
+                <p>You will recieve a bottle of the monthly selected gin along with a flavoured tonic pairing, the Gin Club magazine, a 100ml sample of a second gin along with some complimentary confectionary that suits that months chosen flavour combos!</p>
             </div>          
         </div>
     </section>
 
     <section>
         <div id="whatsIncluded">
-            <h3>What's included?</h3>
-            <ul>
-                <li>A bottle of Gin 700ml</li>
-                <li>Flavoured Tonic pairing</li>
-                <li>Monthly Gin Club magazine</li>
-                <li>Taster sample of a second Gin</li>
-                <li>Complimentary sweets</li>
-            </ul>
+                <h3>What's included?</h3>
+                <ul>
+                    <li>A bottle of Gin 700ml</li>
+                    <li>Flavoured Tonic pairing</li>
+                    <li>Monthly Gin Club magazine</li>
+                    <li>Taster sample of a second Gin</li>
+                    <li>Complimentary sweets</li>
+                </ul>
         </div>
-            <img class="ginHamper" src="assets/images/GinHamper.jpg" alt="Gin Club Hamper">
-
+        <img class="ginHamper" src="assets/images/GinHamper.jpg" alt="Gin Club Hamper">
     </section>
 
     <section>
         <div class="members">
         <h3>Our members</h3>
-            <div>
-                <p>Holly</p>
+            <div class="review">
                 <!--Need to add 5***** either images/symbols-->
                 <img src="assets/images/HollyProfile.jpg" class="profile">
+                <p>Holly</p>
+                <strong>Excellent!</strong>
                 <p>I look forward to a surprise, delicious gin waiting for me to arrive home! Easy to join and great value for money.</p>
             </div>
             
              <!-- Second review needs to be hidden for mob first-->
-            <div>
+            <div class="moreReviews">
                 <p>Dale</p>
                 <!--Need to add 5***** either images/symbols-->
                 <img src="assets/images/DaleProfile.jpg" class="profile">
