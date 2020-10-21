@@ -4,6 +4,16 @@ img {
     width: 100%;
 }
 
+h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .banner {
     background-image: url("images/theginclub.jpg");
     color: #fff;
@@ -22,13 +32,13 @@ img {
 .jumbotron {
     background-color: rgba(0,0,0,0);
     color: #fff;
+    text-align: center;
 }
 
-/*.............. HOw does it work */
+/*.............. How does it work */
 
 .instructions {
         color: #526674;
-        font-family: "Raleway", sans-serif;
         padding: 30px;
         text-align: center;
 }
@@ -39,8 +49,6 @@ img {
 #whatsIncluded {
     color:#fff;
     background-color: #e24923;
-    padding: 15% 10%;
-    font-family: 'Raleway', sans-serif;
 }
 
 #whatsIncluded li {
@@ -54,7 +62,6 @@ img {
     color: #fff;
     background-color: #526674;
     position: center;
-    font-family: "Raleway", sans-serif;
     padding: 30px;
 }
 
@@ -102,7 +109,9 @@ img {
         margin: 20px 0px;
     }
 
-
+    #contactTitle {
+        text-align: left;
+    }
 
 
 /*--------------------- Footer */
@@ -115,7 +124,7 @@ footer {
 .footerMenu {
     list-style-type: none;
     text-align: center;
-    margin: 20px
+    margin: 20px;
     padding: 20px;
 }
 
@@ -142,7 +151,7 @@ footer {
 .social {
     color: #fff;
     text-align: center;
-    padding: 10px
+    padding: 10px;
 }
 
 .social a:hover {
@@ -155,7 +164,7 @@ footer {
 @media screen and (min-width: 769px) {
 
     footer {
-        height: 80px;
+        height: 100px;
     }
 
     .footerMenu li {
