@@ -1,83 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-
-
-
-/* .............. Navigation & Hidden burger menu */ 
-
-#mainMenu {
-	display:none;
+img {
+    width: 100%;
 }
 
-#menuShowHide {
-	position: right;
-	right: 999em;
-}
-
-#mainMenu {
-	list-style:none;
-	text-align:centerleft;
-	padding:0.25em 0;
-	margin-bottom: 1e
-}
-
-#mainMenu a {
-    position: left;
-	display:inline;
-	padding:0.25em 1em;
-	text-decoration:none;
-	color:#fff;
-}
-
-#mainMenu a:active,
-#mainMenu a:focus,
-#mainMenu a:hover {
-	background:rgb(4, 25, 46);
-}
-
-/* ............................media queries for navigation menu */
-
-@media (min-width: 38em) {
-    #mainMenu {
-        display: inline-block;
-        position: right;
-    }
-	
-}
-
-
-/*.................... Bootstrap CSS */ 
-
-.jumbotron {
-    background-color: rgba(0,0,0,0);
-    color: #fff;
-}
-
-.jumbotron button {
-    width: 80%;
-    background-color: rgba(0,0,0,0);
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   /*--------------------- Colour/Shapes/layout */ 
-   
-   .banner {
+.banner {
     background-image: url("images/theginclub.jpg");
+    color: #fff;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -88,62 +17,38 @@
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
 
-   }
-   
-   .button {
-       color: #fff;
-       border: 1px solid #fff;
-       margin: 0 auto;
-       display: block;
-       background-color: #526674;
-       margin-bottom: 20px;
-       padding: 5px 20px;
-   }
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+}
 
+/*.............. HOw does it work */
 
-  
-    /*--------------------- Steps */       
-
-    .steps {
+.instructions {
         color: #526674;
         font-family: "Raleway", sans-serif;
         padding: 30px;
         text-align: center;
-    }
-
-    .stepImages {
-        height: 200px;
-        width: 200px;
-        padding: 20px;
-    }
-
-    .instructions {
-        padding: 15px; 
-    }
+}
 
 
-    /*--------------------- What's included */    
+/*................... What's included */
 
 #whatsIncluded {
     color:#fff;
     background-color: #e24923;
-    margin: 0 auto;
-    position: center;
     padding: 15% 10%;
     font-family: 'Raleway', sans-serif;
-}
-
-
-#whatsIncluded h3 {
-    padding-bottom: 15px;
 }
 
 #whatsIncluded li {
     padding-bottom: 10px
 }
 
-/* ------------------ Members */
+
+/*......................... Members */
 
 .members {
     color: #fff;
@@ -153,13 +58,6 @@
     padding: 30px;
 }
 
-.review {
-    margin: 10px;
-}
-
-.members h3 {
-    text-align: center;
-}
 
 .profile {
     border-radius: 50%;
@@ -168,9 +66,6 @@
     border: 1px solid #fff;
 }
 
-.moreReviews {
-    display: none;
-}
 
     /*--------------------- Contact us */
 
@@ -209,7 +104,8 @@
 
 
 
-     /*--------------------- Footer */
+
+/*--------------------- Footer */
 
 footer {
     color: #fff;
@@ -254,30 +150,9 @@ footer {
 }
 
 
-/*--------------------- Min tablet/desktop width */
+/*.................... Media Queries */
 
 @media screen and (min-width: 769px) {
-
-    #whatsIncluded {
-        float: left;
-        width: 50%;
-        height: 400px;
-    }
-
-    .ginHamper {
-        float: right;
-        width: 50%;
-        height: 400px;
-    }
-
-    #stepOne {
-        width: 33%;
-    }
-
-    .stepsIndiv {
-        float: left;
-        width: 33%;
-    }
 
     footer {
         height: 80px;
@@ -291,8 +166,5 @@ footer {
        width: 50%;
        display: block;
    }
-    
-
 
 }
-
