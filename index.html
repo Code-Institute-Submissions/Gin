@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#joinUs">Join Us</a>
+                            <a class="nav-link" href="#modal">Join Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#instructions">How does it work?</a>
@@ -48,7 +48,7 @@
                             <a class="nav-link" href="#whatsIncluded">What's included?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#membersreviews">Reviews</a>
+                            <a class="nav-link" href="#members">Reviews</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact Us</a>
@@ -56,15 +56,7 @@
                     </ul>
                     <!-- Links -->
                 </div>
-                <!-- Collapsible content -->
-
-                <!-- <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
-                <!-- Search bar -->    
-
-            </nav>
+             </nav>
 
         </header>
 
@@ -76,68 +68,64 @@
                     <p class="lead">This is a gin lovers club that you really must join to try out some great new gins.</p>
                    
                     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-light btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
-  Join us
-</button>
+                    <button type="button" class="btn btn-primary btn-light btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+                    Join us
+                    </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">The Gin Club</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <label for="name">Name:
-            <input type="text" name="name" id="name" class="form-control" placeholder="Ginderella" required="required" /> 
-        </label> 
-        <label for="email">Email address:
-            <input type="email" name="email" id="email" class="form-control" placeholder="gin@example.com" required="required">
-        </label>
-        <label for="inputPassword1">Password:
-            <input type="password" name="inputPassword1" class="form-control" id="inputPassword1" placeholder="Password" required="required" />
-        </label>
-        <label for="inputPassword2">Retype password:
-            <input type="password" name="inputPassword2" class="form-control" id="inputPassword2" placeholder="Password" required="required" />
-        </label>
-
-        <div class="form-group">
-            <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="form-group col-md-4">
-                <label for="inputCountry">Country</label>
-                <input type="text" class="form-control" id="inputCountry">
-            </div>
-            <div class="form-group col-md-2">
-                <label for="inputPostcode">Postcode</label>
-                <input type="text" class="form-control" id="inputPostcode">
-         </div>
-        </div>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I want to recieve email notifications</label>
-         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Join us</button>
-      </div>
-    </div>
-  </div>
-</div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Gin Club</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <label for="name">Name:
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Ginderella" required="required" /> 
+                                    </label> 
+                                    <label for="email">Email address:
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="gin@example.com" required="required">
+                                    </label>
+                                    <label for="inputPassword1">Password:
+                                        <input type="password" name="inputPassword1" class="form-control" id="inputPassword1" placeholder="Password" required="required" />
+                                    </label>
+                                    <label for="inputPassword2">Retype password:
+                                        <input type="password" name="inputPassword2" class="form-control" id="inputPassword2" placeholder="Password" required="required" />
+                                    </label>
+                                    <div class="form-group">
+                                        <label for="inputAddress">Address</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress2">Address 2</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputCity">City</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputCountry">Country</label>
+                                        <input type="text" class="form-control" id="inputCountry">
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputPostcode">Postcode</label>
+                                        <input type="text" class="form-control" id="inputPostcode">
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I want to recieve email notifications</label>
+                                </div>
+                            </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Join us</button>
+                    </div>
                 </div>
             </div>
         </section>
