@@ -15,13 +15,12 @@
     <div class="container"> 
     
     <!-- nav - fixed at top while scrolling hamburger, -- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <div class="banner">
-        <header>
+       <header>
             <!--Navbar-->
-            <nav class="navbar navbar-light light-blue lighten-4">
+            <nav class="navbar navbar navbar-dark bg-dark">
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="#">The Gin Club</a>
 
                 <!-- Collapse button -->
                 <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
@@ -40,39 +39,49 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Join Us</a>
+                            <a class="nav-link" href="#joinUs">Join Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">How does it work?</a>
+                            <a class="nav-link" href="#instructions">How does it work?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#whats-included">What's inside?</a>
+                            <a class="nav-link" href="#whatsIncluded">What's included?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#membersreviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                     <!-- Links -->
                 </div>
                 <!-- Collapsible content -->
+
+                <!-- <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+                <!-- Search bar -->    
+
             </nav>
+
         </header>
 
         <!-- Sign up Link -->
-        <section class="row">
+        <section class="row banner" id="joinUs">
             <div class="col-12">
                 <div class="jumbotron">
                     <h1 class="display-4">We love gin!</h1>
                     <p class="lead">This is a gin lovers club that you really must join to try out some great new gins.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Join us</a>
+                    <a class="btn btn-light btn-lg btn-block" href="#" role="button">Join us</a>
                 </div>
             </div>
         </section>
 
-        </div>
 
 
-        <section>
+        <section id="instructions">
             <h3>How the Gin Club works</h3>
             <div class="row">
             <div class="col-12 col-lg-4">
@@ -121,7 +130,7 @@
 
 
         <!--- Our Members (Reviews) -->
-        <section class="members">
+        <section class="members" id="members">
             <h3>Our members</h3>
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -143,14 +152,24 @@
                 </div>
             </div>
             <div>
-                <button class="button">See more</button>
+                <button type="button" class="btn btn-outline-secondary">See more</button>
             </div>
         </section>
 
 
+        <!-- Sign Up section for users that have scrolled to the bottom -->
+        <section class="row">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <h1 class="display-4">We love gin!</h1>
+                    <p class="lead">This is a gin lovers club that you really must join to try out some great new gins.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Join us</a>
+                </div>
+            </div>
+        </section>
         
         <!-- Contact us form -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <form action="http://example.com/question.php" method="post">
                 <h3 id="contactTitle">Have a question?</h3>
                     <label for="emailAddress">Name:
@@ -175,16 +194,19 @@
             <div>
                 <ul class="footerMenu">
                     <li>
-                    <a href="#">Join us</a>
+                    <a href="#joinUs">Join us</a>
                     </li>
                     <li>
-                    <a href="#">Whats included?</a>
+                    <a href="#instructions">How does it work?</a>
                     </li>
                     <li>
-                    <a href="#">Our members</a>
+                    <a href="#whatsIncluded">Whats included?</a>
+                    </li>
+                    <li>
+                    <a href="#members">Reviews</a>
                     </li>
                     <li>  
-                    <a href="#">Contact us</a>
+                    <a href="#contact">Contact us</a>
                     </li>
                     <li id="copyright">&#169 The Gin Club 2020</li>
                 </ul>
