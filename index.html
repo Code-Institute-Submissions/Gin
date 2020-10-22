@@ -74,7 +74,43 @@
                 <div class="jumbotron">
                     <h1 class="display-4">We love gin!</h1>
                     <p class="lead">This is a gin lovers club that you really must join to try out some great new gins.</p>
-                    <a class="btn btn-light btn-lg btn-block" href="#" role="button">Join us</a>
+                   
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-light btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+  Join us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Gin Club</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="name">Name:
+            <input type="text" name="name" id="name" class="formfield" placeholder="Ginderella" required="required" /> 
+        </label> 
+        <label for="email">Email address:
+            <input type="email" name="email" id="email" class="formfield" placeholder="gin@example.com" required="required">
+        </label>
+        <label for="inputPassword1">Password:
+            <input type="password" name="inputPassword1" class="formfield" id="inputPassword1" placeholder="Password" required="required" />
+        </label>
+        <label for="inputPassword2">Retype password:
+            <input type="password" name="inputPassword2" class="formfield" id="inputPassword2" placeholder="Password" required="required" />
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Join us</button>
+      </div>
+    </div>
+  </div>
+</div>
                 </div>
             </div>
         </section>
@@ -161,9 +197,46 @@
         <section class="row signUp">
                 <div class="col-12">
                     <div class="jumbotron">
-                     <h3 class="display-4">Love gin?</h3>
-                     <p class="lead">Become a member and recieve a delicious gin every month with a few surprise goodies.</p>
-                     <a class="btn btn-light btn-lg" href="#" role="button">Join us</a>
+                     <h3 class="display-4">Conv(gin)ced?</h3>
+                     <p class="lead">Become a member and recieve a delicious gin every month with a few extra surprise goodies.</p>
+                     
+                     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-light btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+  Join us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Gin Club</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="name">Name:
+            <input type="text" name="name" id="name" class="formfield" placeholder="Ginderella" required="required" /> 
+        </label> 
+        <label for="email">Email address:
+            <input type="email" name="email" id="email" class="formfield" placeholder="gin@example.com" required="required">
+        </label>
+        <label for="inputPassword1">Password:
+            <input type="password" name="inputPassword1" class="formfield" id="inputPassword1" placeholder="Password" required="required" />
+        </label>
+        <label for="inputPassword2">Retype password:
+            <input type="password" name="inputPassword2" class="formfield" id="inputPassword2" placeholder="Password" required="required" />
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Join us</button>
+      </div>
+    </div>
+  </div>
+</div>
+
                     </div>
                 </div>
         </section>
@@ -172,7 +245,7 @@
         <section class="contact" id="contact">
             <form action="http://example.com/question.php" method="post">
                 <h3 id="contactTitle">Have a question?</h3>
-                    <label for="emailAddress">Name:
+                    <label for="name">Name:
                         <input type="text" name="name" id="name" class="formfield" placeholder="Ginderella" required="required" /> 
                     </label> 
                     <label for="email">Email address:

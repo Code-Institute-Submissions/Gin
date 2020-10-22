@@ -13,6 +13,10 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+.modal-body, .modal-title{
+    color: #565656;
+    text-align: left;
+}
 
 .banner {
     background-image: url("images/theginclub.jpg");
