@@ -20,21 +20,15 @@ p {
 
 .banner {
     background-image: url("images/theginclub.jpg");
-    color: #fff;
-    position: relative;
+    padding: 40px 20px;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 .jumbotron {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(34, 34, 34, 0.75);
     color: #fff;
     text-align: center;
 }
