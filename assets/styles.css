@@ -7,6 +7,8 @@ img {
 h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    font-weight: 500;
 }
 
 p {
@@ -39,10 +41,14 @@ p {
 
 /*.............. How does it work */
 
-.instructions {
+#instructions {
         color: #526674;
         padding: 30px;
         text-align: center;
+}
+
+#instructions p {
+   padding-top: 15px; 
 }
 
 
