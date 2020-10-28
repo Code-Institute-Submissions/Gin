@@ -1,17 +1,32 @@
-# Gin
+# The Gin Club 
+This website allows people to join ‘The Gin Club’. They provide their details and subscribe to a gin delivery service. The site explains how the subscriptions work, what’s included in each delivery, some member reviews and a contact form.⋅⋅
 
-User Story: 
+- External user goal: The site’s users are either gin members or people that want to subscribe and receive gin deliveries. 
 
-    As: someone who loves gin...
+- Site owner goal: The company wants to increase sales conversion and gain subscriptions.
 
-    I would like: to be told and given the best gins to taste along with a bottle and samples 
 
-    So that I: can taste different, good quality and delicious brands from home.
+## Code style
+This is a static front-end website built using HTML and CSS. 
 
-Bootstrap
 
-Image links
-Unsplash
+## Tech/framework used
+This includes: 
+- Bootstrap’s CSS library
+- Font Awesome’s icon library
 
-Screen grabs 
-include - mock up from Figma
+
+## Images 
+Images were used from the stock image source Unsplash. (https://unsplash.com/ "Unsplash")
+
+
+## Inspiration and credits 
+There are lots of gin and other alcohol delivery subscription sites. UX conventions and successes were used as the base design here. 
+
+
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change
+
+
+## License
+© Sophie Nagle 
