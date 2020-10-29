@@ -28,8 +28,8 @@ p {
 .banner {
     background-image: url("images/theginclub.jpg");
     padding: 40px 20px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
