@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
+div {
+    border: 2px solid #565656;
+}
+
 img {
     width: 100%;
 }
@@ -43,6 +48,7 @@ p {
 
 #instructions {
         color: #526674;
+        background-color: #fff;
         padding: 30px;
         text-align: center;
 }
@@ -79,6 +85,10 @@ p {
         margin: 30px;
         color: #535353;
         font-family: "raleway", sans-serif;
+    }
+
+    .contact h3 {
+        align-items: left;
     }
 
     label, input {
