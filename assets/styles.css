@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-
-div {
-    border: solid 5px red;
-}
-
 img {
     width: 100%;
 }
@@ -72,8 +67,8 @@ p {
 /*......................... Members */
 
 .members {
-    color: #fff;
-    background-color: #526674;
+    color: #333;
+    background-color: #fff;
     position: center;
     padding: 30px;
     }
