@@ -12,6 +12,10 @@ h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
 }
@@ -86,7 +90,7 @@ p {
 
     .contact h3 {
         text-align: left;
-        padding: 0 0 10px 0;
+        padding: 0 0 15px 0;
     }
 
     label, input {
@@ -181,15 +185,15 @@ footer {
         font-size: 4em;
     }
 
-    .jumbotron p {
-
+    h3 {
+        font-size: 35px;
     }
 }
 
 @media screen and (min-width: 960px) {
 
     footer {
-        height: 100px;
+        height: 200px;
     }
 
     .footerMenu li {
