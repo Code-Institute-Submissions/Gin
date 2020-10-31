@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
-div {
-    border: 2px solid #565656;
-}
-
 img {
     width: 100%;
 }
@@ -42,6 +38,7 @@ p {
 
 .signUp, .signUp .jumbotron {
     background-color: #8ddc86;
+    padding: 15px;
 }
 
 /*.............. How does it work */
@@ -88,7 +85,8 @@ p {
     }
 
     .contact h3 {
-        align-items: left;
+        text-align: left;
+        padding: 0 0 10px 0;
     }
 
     label, input {
@@ -134,7 +132,7 @@ footer {
     list-style-type: none;
     text-align: center;
     margin: 20px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .footerMenu a {
@@ -144,7 +142,7 @@ footer {
 }
 
 .footerMenu li {
-    padding: 20px;
+    padding: 15px;
 }
 
 .footerMenu a:hover { 
@@ -169,6 +167,24 @@ footer {
 
 
 /*.................... Media Queries */
+
+@media (min-width: 0px) {
+    .jumbotron h1, .jumbotron h3 {
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .jumbotron h1, .jumbotron h3 {
+        font-size: 4em;
+    }
+
+    .jumbotron p {
+
+    }
+}
 
 @media screen and (min-width: 960px) {
 
