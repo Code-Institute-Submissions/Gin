@@ -64,6 +64,7 @@ p {
 #whatsIncluded {
     color:#fff;
     background-color: #e24923;
+    margin: 0 auto;
 }
 
 #whatsIncluded li {
@@ -162,7 +163,7 @@ footer {
 .social {
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding:  0 10px 15px 10px;
 }
 
 .social a:hover {
@@ -188,6 +189,13 @@ footer {
     h3 {
         font-size: 35px;
     }
+
+    #whatsIncluded li {
+    padding-bottom: 10px;
+    font-size: 20px;
+    align-items: center;
+    }
+
 }
 
 @media screen and (min-width: 960px) {
@@ -204,5 +212,12 @@ footer {
        width: 50%;
        display: block;
    }
+
+   #whatsIncluded li {
+    padding-bottom: 20px;
+    font-size: 25px;
+    align-items: center;
+    }
+
 
 }
