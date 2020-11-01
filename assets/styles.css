@@ -41,7 +41,7 @@ p {
 }
 
 .signUp, .signUp .jumbotron {
-    background-color: #8ddc86;
+    background-color: #26AD85;
     padding: 15px;
 }
 
@@ -63,12 +63,18 @@ p {
 
 #whatsIncluded {
     color:#fff;
-    background-color: #e24923;
+    background-color: #AD3615;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 #whatsIncluded li {
-    padding-bottom: 10px
+    padding-bottom: 10px;
+}
+
+#whatsIncluded p {
+    text-align: center;
+    font-size: 110%;
 }
 
 
@@ -130,7 +136,7 @@ p {
 
 footer {
     color: #fff;
-    background-color: #e24923;
+    background-color: #AD3615;
 }
 
 .footerMenu {
@@ -154,9 +160,20 @@ footer {
     border-bottom: 1px solid #fff;
 }
 
-#copyright {
+#copyright, address {
     font-size: 70%;
 }
+
+.contactInfo {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.contactInfo a:hover,  {
+    color: #26AD85;
+}
+ 
 
     /*--------------------- Social */
 
@@ -167,7 +184,7 @@ footer {
 }
 
 .social a:hover {
-    color: #535353;
+    color: #26AD85;
 }
 
 
@@ -201,7 +218,7 @@ footer {
 @media screen and (min-width: 960px) {
 
     footer {
-        height: 200px;
+        height: 100%;
     }
 
     .footerMenu li {
@@ -213,11 +230,15 @@ footer {
        display: block;
    }
 
-   #whatsIncluded li {
+   #whatsIncluded li, {
     padding-bottom: 20px;
     font-size: 25px;
     align-items: center;
-    }
+   }
+
+   #whatsIncluded p {
+       font-size: 25px;
+   }
 
 
 }
