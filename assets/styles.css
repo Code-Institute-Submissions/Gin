@@ -83,7 +83,6 @@ p {
 .members {
     color: #333;
     background-color: #fff;
-    position: center;
     padding: 30px;
     }
 
@@ -170,7 +169,7 @@ footer {
     padding-bottom: 15px;
 }
 
-.contactInfo a:hover,  {
+.contactInfo a:hover  {
     color: #26AD85;
 }
  
@@ -230,7 +229,7 @@ footer {
        display: block;
    }
 
-   #whatsIncluded li, {
+   #whatsIncluded li {
     padding-bottom: 20px;
     font-size: 25px;
     align-items: center;
