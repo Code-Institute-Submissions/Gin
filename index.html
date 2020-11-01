@@ -14,7 +14,7 @@
 <body>
     <div class="container"> 
     
-    <!-- nav - fixed at top while scrolling hamburger, -- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <!-- nav is fixed at top while scrolling hamburger, "Hamburger menu" / "Bar icon" to toggle the navigation links -->
        <header>
                 <!--Navbar-->
                 <nav class="navbar navbar navbar-dark bg-dark fixed-top container">
@@ -81,10 +81,10 @@
                                     </div>
                                     <div class="modal-body">
                                         <label for="name">Name:
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Ginderella" required="required" /> 
+                                            <input type="text" id="name" class="form-control" placeholder="Ginderella" required="required" /> 
                                         </label> 
                                         <label for="email">Email address:
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="gin@example.com" required="required">
+                                            <input type="email" id="email" class="form-control" placeholder="gin@example.com" required="required">
                                         </label>
                                         <label for="inputPassword1">Password:
                                             <input type="password" name="inputPassword1" class="form-control" id="inputPassword1" placeholder="Password" required="required" />
@@ -93,7 +93,7 @@
                                             <input type="password" name="inputPassword2" class="form-control" id="inputPassword2" placeholder="Password" required="required" />
                                         </label>
                                         <div class="form-group">
-                                            <label for="inputAddress">House/building number and street</label>
+                                            <label for="inputAddress">House/building number and Street</label>
                                             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required="required" />
                                         </div>
                                         <div class="form-row">
@@ -130,29 +130,29 @@
         <section id="instructions">
             <h3>How the Gin Club works</h3>
             <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                    <h5>Step 1: Join Us</h5>
-                    <img src="assets/images/GinGlass.jpg" alt="Step One">
-                    <p>Let us know a little more about you. We need to know your name and address so that 
-                    we can send the delicious gins straight to you.</p>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h5>Step 2: Choose</h5>
-                <img src="assets/images/GinPreparation.jpg" alt="Step Two">
-                <p>Choose how often you would like to recieve your subscription, whether its monthly,
-                    every other month or quarterly.</p>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h5>Step 3: Taste!</h5>
-                <img src="assets/images/Ginandfruit.jpg" alt="Step Three">
-                <p>In each delivery, you will recieve a bottle of gin, tonic, the Gin Club magazine, 
-                and complimentary confectionary!</p>      
+                <div class="col-12 col-md-4 col-lg-4">
+                        <h5>Step 1: Join Us</h5>
+                        <img src="assets/images/GinGlass.jpg" alt="Step One">
+                        <p>Let us know a little more about you. We need to know your name and address so that 
+                        we can send the delicious gins straight to you.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h5>Step 2: Choose</h5>
+                    <img src="assets/images/GinPreparation.jpg" alt="Step Two">
+                    <p>Choose how often you would like to recieve your subscription, whether its monthly,
+                        every other month or quarterly.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h5>Step 3: Taste!</h5>
+                    <img src="assets/images/Ginandfruit.jpg" alt="Step Three">
+                    <p>In each delivery, you will recieve a bottle of gin, tonic, the Gin Club magazine, 
+                    and complimentary confectionary!</p>      
+                </div>
             </div>
         </section>
 
-
         <!-- What's Included?-->
-        <section class="row" >
+        <section class="row">
             <div class="col-12 col-lg-6 col-md-6" id="whatsIncluded">
                 <h3>What's included?</h3>
                 <ul>
@@ -223,21 +223,19 @@
             <div class="contact col" id="contact">
                 <form action="http://example.com/question.php" method="post">
                     <h3 id="contactTitle">Have a question?</h3>
-                    <label for="name">Name:
-                            <input type="text" name="name" id="name" class="formfield" placeholder="Ginderella" required="required" /> 
+                    <label for="fullname">Name:
+                            <input type="text" name="name" id="fullname" class="formfield" placeholder="Ginderella" required="required" /> 
                     </label> 
-                    <label for="email">Email address:
-                            <input type="email" name="email" id="email" class="formfield" placeholder="gin@example.com" required="required">
+                    <label for="emailAddress">Email address:
+                            <input type="email" name="email" id="emailAddress" class="formfield" placeholder="gin@example.com" required="required">
                     </label>
                     <label for="message">Message:
                             <textarea name="query" id="message" class="formfield" >Ask us anything...</textarea>
                     </label>
-                    <input type="submit" name="question" id="question" value="Contact us" required="required" />
+                    <input type="submit" name="question" id="question" value="Contact us" />
                     <label for="subscribe">
-                        <div>
-                            <input type="checkbox" name="subscribe" id="subscribe"/>
-                            <p id="subscribe">Sign me up for email updates!</p>  
-                        </div>
+                            <input type="checkbox" name="subscribe" id="subscribe" class="subscribe"/>
+                            Sign me up for email updates!
                     </label>
                 </form>
             </div>
@@ -263,7 +261,7 @@
                         <li>  
                         <a href="#contact">Contact us</a>
                         </li>
-                        <li id="copyright">&#169 The Gin Club 2020</li>
+                        <li id="copyright">&#169; The Gin Club 2020</li>
                     </ul>
                 </div>
                 <div class="contactInfo col-12">
