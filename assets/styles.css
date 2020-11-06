@@ -58,7 +58,6 @@ p {
    padding-top: 15px; 
 }
 
-
 /*................... What's included */
 
 #whatsIncluded {
@@ -76,7 +75,6 @@ p {
     text-align: center;
     font-size: 110%;
 }
-
 
 /*......................... Members */
 
@@ -130,7 +128,6 @@ p {
         text-align: left;
     }
 
-
 /*--------------------- Footer */
 
 footer {
@@ -172,7 +169,6 @@ footer {
 .contactInfo a:hover  {
     color: #26AD85;
 }
- 
 
     /*--------------------- Social */
 
@@ -185,7 +181,6 @@ footer {
 .social a:hover {
     color: #26AD85;
 }
-
 
 /*.................... Media Queries */
 
@@ -238,6 +233,5 @@ footer {
    #whatsIncluded p {
        font-size: 25px;
    }
-
 
 }
