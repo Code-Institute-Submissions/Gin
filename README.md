@@ -3,9 +3,12 @@
 View the live project here. [The Gin Club](https://sophnagle.github.io/Gin/)
 
 I have created a static website for a fictional business that offers a gin and tonic delivery and subscription service. This website allows people to join ‘The Gin Club’ and users are presented with the information about the subscription and they provide their details and subscribe to the service. 
-External user goal: The site’s main users, and derived from the main use case, are typically young professionals or older people who love gin and can have good suggested tasters delivered straight to their door without leaving their own home. 
+
+External user goal: The site’s main users, and derived from the main use case, are typically young professionals or older people who love gin and want good suggested tasters delivered straight to their door without leaving their own home. 
+
 Site owner/business goal: The company wants to increase sales conversion and gain subscriptions. They want to provide full transparency, so the customers are fully aware of the service and how it works, and they want conversion to be simple and friction free. 
-As 70% plus of users browse and buy via their phone, it has been designed mobile first however is responsive. The site is one scrollable page with 5 sections; it includes a sign-up section, explains how the subscriptions work, what’s included in each delivery, sample member reviews and a contact form for queries.
+
+As +70% of users browse and buy online via their phone, it has been designed mobile first however is responsive. The site is one scrollable page with 5 sections; it includes a sign-up section, explains how the subscriptions work, what’s included in each delivery, sample member reviews and a contact form for queries.
 
 ### Landing page and navigation
 ![alt Landing page](assets/images/readme/header.PNG)
@@ -21,10 +24,10 @@ This section lists the items that the user would expect to receive in a delivery
 
 ### Member reviews 
 ![alt Reviews](assets/images/readme/reviews.PNG)
-Reviews are shown to show the user that others have tried and like this, to help validate the business and its service. I have used a carousel so the user can click through reviews. 
+Reviews are shown to show the user that others have tried and like this, to help validate the business and its service and show that it is trustworthy. I have used a carousel so the user can click through reviews for ease and engageing UX. 
 
 ### Contact us
-![alt Contact us](assets/images/readme/contact.PNG)The contact us form is there for new subscribers or current ones who have any questions. When on a large device this moves to the left and has lots of white space to the right on purpose. 
+![alt Contact us](assets/images/readme/contact.PNG)The contact us form is there for new subscribers or current ones who have any questions. This is centered to the page but aligned right on mobile, however when on a large device this moves to the left and has lots of white space to the right on purpose. This design was taken from similar contact forms on websites, its simple and distraction free.  
 
 ### Sign up link 
 ![alt Sign up](assets/images/readme/signup.PNG)This is a second sign up link. It has been added for UX and conversion purposes, as by this point the user has scrolled to the bottom. It allows them to sign up there, or prompts them too, without having to scroll back to the top. 
@@ -64,7 +67,7 @@ This shows that the priorities are the Sign-Up link and form, clear info about h
 
 Based on the Strategy, the key features are a large, easy to use Sign up link and form to fill out their details. It should have clear and simple sections with information as to how it works and what they are getting in their delivery. 
 The website needs to clearly show the that the company is trustworthy and reliable. It wants to increase sales conversion but also promote itself and have a digital presence. The images will be stylish and be of gin drinks being prepared in home kitchens rather than bars. 
-*Structure Plane 
+### Structure Plane 
 The website is a single scrollable page with 5 sections. These can be scrolled to instinctively by the user, but also navigated to through a drop-down navigation menu that is fixed to the top of the viewport. This is so it is accessible regardless of where the user may have scrolled to. Links will change style on hover, so that a user knows that he/she can click on it for more content or to move about the page. Links that lead to an external page, such as the social media links, will be opened in a new tab so as not to lose this site. The contact form and sign up modal have placeholders so the user can gauge what information they need to divulge and they receive feedback if they have input invalid information, say an email address, or missed a field for example. 
 ### Skeleton Plane
 ![alt The Gin Club Wireframes](assets/images/readme/ginsubscription.png) 
@@ -76,26 +79,27 @@ I used Figma to design the layout as can be seen here:
 
 ### User stories 
 First time visitor goals: 
-*I love tasting new gins and am looking for some new ones to try. I want to find out about this subscription to see how it works.
-*I enjoy having drinks at home and want to order a gin to my home. I want to sign up for deliveries. 
+* I love tasting new gins and am looking for some new ones to try. I want to find out about this subscription to see how it works.
+* I enjoy having drinks at home and want to order a gin to my home. I want to sign up for deliveries. 
+
 Returning visitor goals: 
-*I want to find out more about the subscription and contact someone from the company. 
-*I have decided to sign up and want to join easily and quickly. 
+* I want to find out more about the subscription and contact someone from the company. 
+* I have decided to sign up and want to join easily and quickly. 
 ### Design 
 From researching other alcohol delivery services as well as SME digital delivery services, I found the main UX conventions were to have a large sign up section at the top of the page with bold imagery or graphic that conveys the business or brand offering. This was typically central to the landing page with information either scrollable or found using navigation to separate pages. The idea being it’s the first thing the user sees, so they can assume the brand’s USP and offering from the outset. As I was taking inspiration from digital SME businesses, I found they often had scrollable pages as like this website they often had one or few use cases, Sign Up and or Contact us. 
 The sections then follow in order of what users look for; information about how it works, what’s included reviews and a contact us form. I have included an additional Sign-Up link at the bottom for good UX so the user doesn’t have to scroll back to the top. 
 ### Colours
-I used Google’s Material Design guidelines, Adobe Color Wheel too test colour palettes. Links found here: 
+Taken a sample hex value from the grapefuit in the gin image, I used Google’s Material Design guidelines, Adobe Color Wheel too test colour palettes and decided on the below for it's complimenting colours but also suitable accessibility. Links found here: 
 [Google Material Design](https://material.io/design/color/the-color-system.html#color-usage-and-palettes)
  and [Adobe Color Wheel](https://color.adobe.com/create/color-wheel).
 
 ![alt Colour Shades](assets/images/readme/colourswatch.PNG)
 ### Typography 
-I have used Google Font’s ‘Raleway’ as it is contemporary and stylish. Its lightweight, thin characters compliment the website aesthetic and work for titles as well as text. 
+I have used Google Font’s ‘Raleway’ as it is contemporary and stylish, like the brand. Its lightweight and thin characters compliment the website and brand aesthetic and work for titles as well as text. 
 ### Images 
-Images have been taken from the stock image website [Unsplash](https://unsplash.com/). All images have alt text. 
+I wanted the imagery to be consistent throughout and have used photography that shows a drink of gin being prepared at home, cutting up fruits, ice and herbs in a home kitchen. They have similar colour schemes and have classy and stylish affiliations as to suit the vibe that the company wants to suggest. Images have been taken from the stock image website [Unsplash](https://unsplash.com/). All images have alt text. 
 ### Wireframes 
-The initial design was created in Figma, with small iterations as it was built and tested as seen in the wirreframed in sketleton and structure planes sections.  
+The initial design was created in Figma, with small iterations as it was built and tested as seen in the wireframed in sketleton and structure planes sections.  
 ### Features 
 The website is simple with all the essential information and sections displayed responsively from mobiles to larger screens. The navigation bar and footer link to the different sections or the user can instinctively scroll as per UX conventions. The site includes two large sign-up forms to entice and prompt users to subscribe. 
 ### Features to implement 
@@ -127,8 +131,10 @@ An additional feature to add is a custom page 404.
 All navigation and social links have been checked and they are all working. 
 The contact us form and sign up modal have been tested by myself and several others. The validation feedback works and although the information doesn’t go to the server the links/buttons open and close as required. 
 The scroll functions smoothly and the site has been tested for responsivity. 
-The HTML and CSS have been validated with [HTML Validator](https://validator.w3.org/)  and [CSS Validator](https://jigsaw.w3.org/css-validator/).
+The HTML and CSS have been validated with [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
 HTML: Initially the HTML validator noted errors in the forms as the same IDs had been used (name, email etc..) for both the sign-up modal and the contact us form. It has since been rectified. 
+
 CSS: typographic errors found and rectified. 
 ### User Testing 
 To test the site, I tried it myself on multiple devices and asked friends and family to test it too. 
