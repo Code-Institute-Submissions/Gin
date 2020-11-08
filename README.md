@@ -8,26 +8,26 @@ Site owner/business goal: The company wants to increase sales conversion and gai
 As 70% plus of users browse and buy via their phone, it has been designed mobile first however is responsive. The site is one scrollable page with 5 sections; it includes a sign-up section, explains how the subscriptions work, what’s included in each delivery, sample member reviews and a contact form for queries.
 
 ### Landing page and navigation
-![alt Landing page](assets/images/readme/header.png)
+![alt Landing page](assets/images/readme/header.PNG)
 The landing page is purposefully simple. It has a close-up image of lemons and berries being prepared with a glass of gin. It evokes the classy and up-market connotations of the classic ‘gin and tonic’. It has a large ‘join us’ link with large bold prompt and exclamation of liking gin. There is a drop-down navigation bar that links to the different sections of the website however they can scroll down the page and reach the same section. 
 
 ### How the gin club works 
-![alt How it works](assets/images/readme/howitworks.png)
+![alt How it works](assets/images/readme/howitworks.PNG)
 This section sets out the steps the user takes to join/sign up and then begin to receive deliveries. Its purpose is to show how simple it is and breaks it down into three easy steps. These steps include a brief explanation with an image akin to the landing page. 
 
 ### What’s included 
-![alt What's included](assets/images/readme/whatsincluded.png)
+![alt What's included](assets/images/readme/whatsincluded.PNG)
 This section lists the items that the user would expect to receive in a delivery, it also includes an image of a gin hamper with accompanying tonic and confectionary. This image was taken from the stock site Unsplash [Unsplash](https://www.unsplash.com).
 
 ### Member reviews 
-![alt Reviews](assets/images/readme/reviews.png)
+![alt Reviews](assets/images/readme/reviews.PNG)
 Reviews are shown to show the user that others have tried and like this, to help validate the business and its service. I have used a carousel so the user can click through reviews. 
 
 ### Contact us
-![alt Contact us](assets/images/readme/contact.png)The contact us form is there for new subscribers or current ones who have any questions. When on a large device this moves to the left and has lots of white space to the right on purpose. 
+![alt Contact us](assets/images/readme/contact.PNG)The contact us form is there for new subscribers or current ones who have any questions. When on a large device this moves to the left and has lots of white space to the right on purpose. 
 
 ### Sign up link 
-![alt Sign up](assets/images/readme/signup.png)This is a second sign up link. It has been added for UX and conversion purposes, as by this point the user has scrolled to the bottom. It allows them to sign up there, or prompts them too, without having to scroll back to the top. 
+![alt Sign up](assets/images/readme/signup.PNG)This is a second sign up link. It has been added for UX and conversion purposes, as by this point the user has scrolled to the bottom. It allows them to sign up there, or prompts them too, without having to scroll back to the top. 
 
 ### Footer 
 This has links as per the main navigation so the user can revisit sections and also includes social media links. 
@@ -67,13 +67,13 @@ The website needs to clearly show the that the company is trustworthy and reliab
 *Structure Plane 
 The website is a single scrollable page with 5 sections. These can be scrolled to instinctively by the user, but also navigated to through a drop-down navigation menu that is fixed to the top of the viewport. This is so it is accessible regardless of where the user may have scrolled to. Links will change style on hover, so that a user knows that he/she can click on it for more content or to move about the page. Links that lead to an external page, such as the social media links, will be opened in a new tab so as not to lose this site. The contact form and sign up modal have placeholders so the user can gauge what information they need to divulge and they receive feedback if they have input invalid information, say an email address, or missed a field for example. 
 ### Skeleton Plane
-![alt The Gin Club Wireframes](assets/images/readme/ginsubscription.pdf) 
+![alt The Gin Club Wireframes](assets/images/readme/ginsubscription.png) 
 The sections will each have a similar size, although may vary slightly depending on content. Each with have a different colour to differentiate from each other and to also prompt the user to continue to scroll when seen at the bottom of their screen. 
 ### Surface Plane 
 The colour palette is inspired by the imagery used in the landing page and throughout the site. Dark greys and blues serve as a dark backdrop for light text and colourful images alongside deep oranges that are all taken from the fruits used to add to gin (grapefruit). The idea is that they all compliment each other and are therefore linked subconsciously to the user to gin.
 The Google Font ‘Raleway’ was used for it’s contemporary and stylish aesthetic that compliments the feel of the site and the gin service. 
 I used Figma to design the layout as can be seen here: 
-![alt The Gin Club Wireframes](assets/images/readme/ginsubscription.pdf) 
+
 ### User stories 
 First time visitor goals: 
 *I love tasting new gins and am looking for some new ones to try. I want to find out about this subscription to see how it works.
@@ -85,17 +85,17 @@ Returning visitor goals:
 From researching other alcohol delivery services as well as SME digital delivery services, I found the main UX conventions were to have a large sign up section at the top of the page with bold imagery or graphic that conveys the business or brand offering. This was typically central to the landing page with information either scrollable or found using navigation to separate pages. The idea being it’s the first thing the user sees, so they can assume the brand’s USP and offering from the outset. As I was taking inspiration from digital SME businesses, I found they often had scrollable pages as like this website they often had one or few use cases, Sign Up and or Contact us. 
 The sections then follow in order of what users look for; information about how it works, what’s included reviews and a contact us form. I have included an additional Sign-Up link at the bottom for good UX so the user doesn’t have to scroll back to the top. 
 ### Colours
-I used Google’s Material Design guidelines, Adobe Color Wheel too test colour palettes. 
+I used Google’s Material Design guidelines, Adobe Color Wheel too test colour palettes. Links found here: 
 [Google Material Design](https://material.io/design/color/the-color-system.html#color-usage-and-palettes)
-[Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+ and [Adobe Color Wheel](https://color.adobe.com/create/color-wheel).
 
-![alt Colour Shades](assets/images/readme/colourswatch.png)
+![alt Colour Shades](assets/images/readme/colourswatch.PNG)
 ### Typography 
 I have used Google Font’s ‘Raleway’ as it is contemporary and stylish. Its lightweight, thin characters compliment the website aesthetic and work for titles as well as text. 
 ### Images 
 Images have been taken from the stock image website [Unsplash](https://unsplash.com/). All images have alt text. 
 ### Wireframes 
-The initial design was created in Figma, with small iterations as it was built and tested as seen here ![alt The Gin Club Wireframes ](assets/images/readme/ginsubscription.pdf) 
+The initial design was created in Figma, with small iterations as it was built and tested as seen in the wirreframed in sketleton and structure planes sections.  
 ### Features 
 The website is simple with all the essential information and sections displayed responsively from mobiles to larger screens. The navigation bar and footer link to the different sections or the user can instinctively scroll as per UX conventions. The site includes two large sign-up forms to entice and prompt users to subscribe. 
 ### Features to implement 
@@ -108,8 +108,8 @@ An additional feature to add is a custom page 404.
 --- 
 ## Technologies 
 ### Languages 
-*HTML5
-*CSS3
+* HTML5
+* CSS3
 ### Frameworks, libraries, and software used
 * Bootstrap 4.5.0
 * Font Awesome 4.7.0
@@ -145,17 +145,20 @@ I tested the website on multiple browsers:
 * Safari
 It was also tested on multiple devices from mobiles to large screen monitors. 
 ### Performance testing 
-I used Google’s Page speed [Google page speed](https://developers.google.com/speed/pagespeed/insights) to test the site speed for desktop and mobile, and used Google’s mobile friendly tester [Mobile tester](https://search.google.com/test/mobile-friendly)to determine it’s mobile performance level.
+I used Google’s Page speed [Google page speed](https://developers.google.com/speed/pagespeed/insights) to test the site speed for desktop and mobile, and used Google’s mobile friendly tester [Mobile tester](https://search.google.com/test/mobile-friendly) to determine it’s mobile performance level.
 
-| ![alt Desktop speed](assets/images/readme/desktopspeed.png) | ![alt Mobile speed](assets/images/readme/mobilespeed.png) |
+Desktop | Mobile 
+------------ | -------------
+| ![alt Desktop speed](assets/images/readme/desktopspeed.PNG) | ![alt Mobile speed](assets/images/readme/mobilespeed.PNG) |
 
 Both are good, although with small changes could still be improved. Desktop is slightly better than mobile and the these changes could be actioned in future updates. 
 The site was confirmed to be mobile friendly. 
 
-Google Lighthouse – 
-| ![alt Google Lighthouse desktop](assets/images/readme/desktoplighthouse.png) | ![alt Google Lighthouse mobile](assets/images/readme/mobilelighthouse.png) | 
+Desktop | Mobile 
+------------ | -------------
+| ![alt Google Lighthouse desktop](assets/images/readme/desktoplighthouse.PNG) | ![alt Google Lighthouse mobile](assets/images/readme/mobilelighthouse.PNG) |
 
-It showed that the performance needs improving through resizing the images and that CSS and JS (Bootstrap) is slightly slowing it down. I have added `rel="noopener"’ in links that open in new tabs (social) for security purposes after deployment as suggested. 
+Google's Lighthouse showed that the performance needs improving through resizing the images and that CSS and JS (Bootstrap) is slightly slowing it down. I have added `rel="noopener"’ in links that open in new tabs (social) for security purposes after deployment as suggested. 
 For both desktop and mobile it suggests improvement through higher contrast, actual decremental use of H heading tags with no missing steps, image file types and sizes to be changed for quicker. These should be acted upon when updated in the future. 
 
 --- 
