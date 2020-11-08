@@ -99,7 +99,7 @@ I have used Google Font’s ‘Raleway’ as it is contemporary and stylish, lik
 ### Images 
 I wanted the imagery to be consistent throughout and have used photography that shows a drink of gin being prepared at home, cutting up fruits, ice and herbs in a home kitchen. They have similar colour schemes and have classy and stylish affiliations as to suit the vibe that the company wants to suggest. Images have been taken from the stock image website [Unsplash](https://unsplash.com/). All images have alt text. 
 ### Wireframes 
-The initial design was created in Figma, with small iterations as it was built and tested as seen in the wireframea in the skeleton and structure plane sections.  
+The initial design was created in Figma, with small iterations as it was built and tested as seen in the wireframes in the skeleton and structure plane sections.  
 ### Features 
 The website is simple with all the essential information and sections displayed responsively from mobiles to larger screens. The navigation bar and footer link to the different sections or the user can instinctively scroll as per UX conventions. The site includes two large sign-up forms to entice and prompt users to subscribe. 
 ### Features to implement 
